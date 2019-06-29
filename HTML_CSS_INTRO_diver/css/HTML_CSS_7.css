@@ -1,0 +1,46 @@
+div.sample {
+  height:100px;
+  background-color: blue;
+  font-weight:bold;
+  position: relative;
+  top: 30px;
+  margin-left:20px;
+}
+
+div.dummy {
+  height: 100px;
+  background-color: lime;
+}
+
+div.sample1 {
+  background-color: black;
+  color: red;
+  position: static;
+  top: 50px;
+  left: 150px;
+}
+
+div.sample2 {
+  background-color: black;
+  color: red;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  z-index: 1;
+}
+
+div.sample3 {
+  background-color: black;
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+div.sample4 {
+  background-color: black;
+  color: red;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/users.css">
+</head>
+  </head>
+  <body>
+    <h1>登録確認</h1>
+    <a href="/form">新規登録に戻る</a>
+    <p>お名前：<%= @name %></p>
+    <p>メールアドレス：<%= @email %></p>
+    <% i=@password.length %>
+    <% hidden_password = "*" * i %>
+    <p>パスワード：<%= hidden_password %></p>
+    <a href = "/form">登録する</a>
+  </body>
+</html>

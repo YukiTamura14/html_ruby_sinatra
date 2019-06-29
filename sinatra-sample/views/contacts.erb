@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>お問い合わせ一覧</h1>
+  <p>現在お問い合わせはありません。</p>
+  
+  <form action ="/contacts" method="POST">
+    <table class = "contact">
+      <tr>
+        <th>お名前</th>
+        <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <th>email</th>
+        <td><input type="text" name="email"></td>
+      </tr>
+      <tr>
+        <th>お問い合わせ内容</th>
+        <td><textarea name="contact" cols=40 rows=4 ></textarea></td>
+      </tr>
+      <tr>
+        <td id="submit"><input type="submit" value="送信する"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

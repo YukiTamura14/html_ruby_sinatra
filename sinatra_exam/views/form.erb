@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/users.css">
+</head>
+<body>
+  <form action ="/form" method="POST">
+    <p class="error_sentence"><%= @error_name %></p>
+    <p class="error_sentence"><%= @error_email %></p>
+    <p class="error_sentence"><%= @error_password %></p>
+    
+    <h1>新規登録</h1>
+    <table class = "form">
+      <tr>
+        <th>お名前</th>
+        <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td><input type="text" name="email"></td>
+      </tr>
+      <tr>
+        <th>パスワード</th>
+        <td><input type="password" name="password" size="10" maxlength="8"></td>
+      </tr>
+      <tr>
+        <td id="submit"><input type="submit" value="送信"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
